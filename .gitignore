@@ -1,4 +1,3 @@
-/target
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -32,3 +31,21 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+tests/**/coverage/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
